@@ -1,0 +1,94 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "punk-rock";
+    src: url(../fonts/PunkRocker_S_Demo.otf);
+}
+
+body {
+    background-color: gray;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(../imagenes/wallpaperflare.com_wallpaper\ \(1\).jpg);
+}
+
+h1 {
+    font-family: "punk-rock";
+    font-size: 9rem;
+    color: aliceblue;
+    letter-spacing: 4px;
+    margin: 25px;
+}
+
+h2 {
+    font-family: "punk-rock";
+    font-size: 3rem;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+
+}
+
+table {
+    margin: 100px auto;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+}
+
+label {
+    font-family: "punk-rock";
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    margin: 25px;
+}
+
+header nav a {
+    color: greenyellow;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.dontclick {
+    background-color: greenyellow;
+    color: black;
+}
+
+p {
+    color: aliceblue;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 50px;
+    width: 1000px;
+}
+
+.banda {
+    width: 800px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.cielo {
+    color: black;
+    background-color: aqua;
+}
