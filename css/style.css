@@ -65,6 +65,11 @@ header nav a:hover {
     color: black;
 }
 
+header nav a:active {
+    background-color: aliceblue;
+    color: black;
+}
+
 .dontclick {
     background-color: greenyellow;
     color: black;
@@ -91,4 +96,27 @@ footer a {
 .cielo {
     color: black;
     background-color: aqua;
+}
+
+/*Flex para la pagina de las fotos*/
+.containerflex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.photo{
+    width: 500px;
+}
+
+/*Flex para la pagina de los videos*/
+.flexvid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
