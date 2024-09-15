@@ -32,6 +32,7 @@ h2 {
 }
 
 table {
+    width: 100%;
     margin: 100px auto;
     color: aliceblue;
     text-align: center;
