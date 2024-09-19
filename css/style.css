@@ -1,0 +1,190 @@
+/*Botonera de navegacion*/
+.flexnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+nav {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: black;
+  margin: 25px;
+}
+
+header nav a {
+  color: greenyellow;
+  text-decoration: none;
+  margin: 4px;
+  font-weight: bold;
+}
+header nav a:hover {
+  background-color: greenyellow;
+  color: black;
+}
+header nav a:active {
+  background-color: aliceblue;
+  color: black;
+}
+
+.dontclick {
+  background-color: greenyellow;
+  color: black;
+}
+
+/*Proximas fechas en vivo*/
+table {
+  width: 100%;
+  margin: 100px auto;
+  color: aliceblue;
+  text-align: center;
+  align-content: center;
+  font-size: 40px;
+}
+
+/*Flex para fotos.html*/
+.containerflex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.photo {
+  width: 500px;
+}
+
+/*Flex para videos.html*/
+.flexvid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/*Grid para el about*/
+.containerabout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas: "foto1 texto1" "texto2 texto2" "texto3 foto2";
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.foto1 {
+  grid-area: foto1;
+  max-width: 600px;
+  align-content: center;
+}
+
+.foto2 {
+  grid-area: foto2;
+  max-width: 600px;
+  align-content: center;
+}
+
+.texto1 {
+  grid-area: texto1;
+  max-width: 100%;
+  text-align: center;
+  color: aliceblue;
+  line-height: 1.5;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.texto2 {
+  grid-area: texto2;
+  max-width: 100%;
+  text-align: center;
+  color: aliceblue;
+  line-height: 1.5;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.texto3 {
+  grid-area: texto3;
+  max-width: 100%;
+  text-align: center;
+  color: aliceblue;
+  line-height: 1.5;
+  margin: 0 auto;
+  align-content: center;
+}
+
+/*Footer con links a redes sociales*/
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.cielo {
+  color: black;
+  background-color: aqua;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "punk-rock";
+  src: url(../fonts/PunkRocker_S_Demo.otf);
+}
+body {
+  background-color: gray;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url(../imagenes/wallpaperflare.com_wallpaper\ \(1\).jpg);
+}
+
+h1 {
+  text-align: center;
+  font-family: "punk-rock";
+  font-size: 9rem;
+  color: aliceblue;
+  letter-spacing: 4px;
+  margin: 25px;
+}
+
+.mainimg {
+  max-width: 100%;
+}
+
+h2 {
+  font-family: "punk-rock";
+  font-size: 3rem;
+  color: aliceblue;
+  letter-spacing: 1.5px;
+}
+
+label {
+  font-family: "punk-rock";
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.parrafomain {
+  max-width: 100%;
+  color: aliceblue;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 50px;
+  width: 1000px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+/*Botonera de navegacion*/
+
+.flexnav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+nav {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: black;
+	margin: 25px;
+}
+header {
+	nav {
+		a {
+			color: greenyellow;
+			text-decoration: none;
+			margin: 4px;
+			font-weight: bold;
+			&:hover {
+				background-color: greenyellow;
+				color: black;
+			}
+			&:active {
+				background-color: aliceblue;
+				color: black;
+			}
+		}
+	}
+}
+.dontclick {
+	background-color: greenyellow;
+	color: black;
+}
