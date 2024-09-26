@@ -1,3 +1,5 @@
+/*Para compilar SASS a CSS usar el comando en consola: sass --watch scss:css*/
+
 @import "navbar";
 @import "fechas";
 @import "photo";
@@ -20,6 +22,13 @@ body {
 	text-align: center;
 	background-image: url(../imagenes/wallpaperflare.com_wallpaper\ \(1\).jpg);
 }
+
+.heartlogo {
+	width: 180px;
+	height: 180px;
+	max-width: 25%;
+}
+
 h1 {
 	text-align: center;
 	font-family: "punk-rock";
@@ -27,6 +36,7 @@ h1 {
 	color: aliceblue;
 	letter-spacing: 4px;
 	margin: 25px;
+	max-width: 50%;
 }
 .mainimg {
 	max-width: 100%;
