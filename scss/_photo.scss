@@ -10,5 +10,10 @@
 }
 .photo {
 	width: 500px;
+	transition: all 0.7s;
 }
 
+.photo:hover {
+    width: 520px;
+	transform: rotate(10deg);
+}

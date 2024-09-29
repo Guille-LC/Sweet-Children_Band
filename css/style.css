@@ -57,6 +57,12 @@ table {
 
 .photo {
   width: 500px;
+  transition: all 0.7s;
+}
+
+.photo:hover {
+  width: 520px;
+  transform: rotate(10deg);
 }
 
 /*Flex para videos.html*/
@@ -186,20 +192,12 @@ body {
   background-image: url(../imagenes/wallpaperflare.com_wallpaper\ \(1\).jpg);
 }
 
-.heartlogo {
-  width: 180px;
-  height: 180px;
-  max-width: 25%;
-}
-
 h1 {
   text-align: center;
   font-family: "punk-rock";
   font-size: 9rem;
   color: aliceblue;
   letter-spacing: 4px;
-  margin: 25px;
-  max-width: 50%;
 }
 
 .mainimg {
