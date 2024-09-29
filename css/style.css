@@ -167,12 +167,23 @@ table {
 }
 /*Footer con links a redes sociales*/
 footer {
+  margin: 10px;
+  padding: 10px;
   background-color: black;
 }
 footer a {
   text-decoration: none;
   font-weight: bold;
   margin: 15px;
+  width: 50px;
+}
+footer a img {
+  width: 50px;
+}
+
+.derechos {
+  margin: 10px;
+  color: gray;
 }
 
 * {
