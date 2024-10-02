@@ -90,22 +90,14 @@ table {
   grid-auto-flow: row;
   grid-template-areas: "foto1 texto1" "texto2 texto2" "texto3 foto2";
   margin: 0 auto;
-  padding: 0 120px;
 }
-
-.foto1 {
+.containerabout .foto1 {
+  padding: 30px;
   grid-area: foto1;
   max-width: 100%;
   align-content: center;
 }
-
-.foto2 {
-  grid-area: foto2;
-  max-width: 100%;
-  align-content: center;
-}
-
-.texto1 {
+.containerabout .texto1 {
   grid-area: texto1;
   max-width: 100%;
   text-align: center;
@@ -114,8 +106,7 @@ table {
   margin: 0 auto;
   align-content: center;
 }
-
-.texto2 {
+.containerabout .texto2 {
   grid-area: texto2;
   max-width: 100%;
   text-align: center;
@@ -124,14 +115,19 @@ table {
   margin: 0 auto;
   align-content: center;
 }
-
-.texto3 {
+.containerabout .texto3 {
   grid-area: texto3;
   max-width: 100%;
   text-align: center;
   color: aliceblue;
   line-height: 1.5;
   margin: 0 auto;
+  align-content: center;
+}
+.containerabout .foto2 {
+  padding: 30px;
+  grid-area: foto2;
+  max-width: 100%;
   align-content: center;
 }
 
@@ -149,25 +145,22 @@ table {
     grid-area: foto1;
     align-content: center;
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
   }
   .texto1 {
     grid-area: texto1;
-    margin: 5px;
   }
   .texto2 {
     grid-area: texto2;
-    margin: 5px;
   }
   .texto3 {
     grid-area: texto3;
-    margin: 5px;
   }
   .foto2 {
     grid-area: foto2;
     align-content: center;
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
   }
 }
 /*Footer con links a redes sociales*/
@@ -209,6 +202,7 @@ body {
 }
 
 h1 {
+  margin-top: 30px;
   text-align: center;
   font-family: "punk-rock";
   font-size: 9rem;

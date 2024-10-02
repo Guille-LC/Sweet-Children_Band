@@ -11,45 +11,47 @@
     "texto2 texto2"
     "texto3 foto2";
 	margin: 0 auto;
-	padding: 0 120px;
+	.foto1 {
+		padding: 30px;
+		grid-area: foto1;
+		max-width: 100%;
+		align-content: center;
+	}
+	.texto1 {
+		grid-area: texto1;
+		max-width: 100%;
+		text-align: center;
+		color: aliceblue;
+		line-height: 1.5;
+		margin: 0 auto;
+		align-content: center;
+	}
+	.texto2 {
+		grid-area: texto2;
+		max-width: 100%;
+		text-align: center;
+		color: aliceblue;
+		line-height: 1.5;
+		margin: 0 auto;
+		align-content: center;
+	}
+	.texto3 {
+		grid-area: texto3;
+		max-width: 100%;
+		text-align: center;
+		color: aliceblue;
+		line-height: 1.5;
+		margin: 0 auto;
+		align-content: center;
+	}
+	.foto2 {
+		padding: 30px;
+		grid-area: foto2;
+		max-width: 100%;
+		align-content: center;
+	}
 }
-.foto1 {
-	grid-area: foto1;
-	max-width: 100%;
-	align-content: center;
-}
-.foto2 {
-	grid-area: foto2;
-	max-width: 100%;
-	align-content: center;
-}
-.texto1 {
-	grid-area: texto1;
-	max-width: 100%;
-	text-align: center;
-	color: aliceblue;
-	line-height: 1.5;
-	margin: 0 auto;
-	align-content: center;
-}
-.texto2 {
-	grid-area: texto2;
-	max-width: 100%;
-	text-align: center;
-	color: aliceblue;
-	line-height: 1.5;
-	margin: 0 auto;
-	align-content: center;
-}
-.texto3 {
-	grid-area: texto3;
-	max-width: 100%;
-	text-align: center;
-	color: aliceblue;
-	line-height: 1.5;
-	margin: 0 auto;
-	align-content: center;
-}
+
 
 @media (max-width: 1280px) {
 	.containerabout {  display: grid;
@@ -65,9 +67,9 @@
 		"texto3"
 		"foto2";
 	}
-	.foto1 { grid-area: foto1; align-content: center; margin: 0 auto; padding: 10px;}
-	.texto1 { grid-area: texto1; margin: 5px;}
-	.texto2 { grid-area: texto2; margin: 5px;}
-	.texto3 { grid-area: texto3; margin: 5px;}
-	.foto2 { grid-area: foto2; align-content: center; margin: 0 auto; padding: 10px;}
+	.foto1 { grid-area: foto1; align-content: center; margin: 0 auto; padding: 30px;}
+	.texto1 { grid-area: texto1;}
+	.texto2 { grid-area: texto2;}
+	.texto3 { grid-area: texto3;}
+	.foto2 { grid-area: foto2; align-content: center; margin: 0 auto; padding: 30px;}
 }
