@@ -235,6 +235,7 @@ h1 {
   gap: 40px;
 }
 .heading .mainlogo {
+  padding-top: 16px;
   width: 120px;
 }
 
