@@ -35,3 +35,8 @@ header {
 	background-color: greenyellow;
 	color: black;
 }
+
+@media (max-width:768px) {a{font-size: 0.9rem;}}
+@media (max-width:425px) {a{font-size: 0.8rem;}}
+@media (max-width:375px) {a{font-size: 0.7rem;}}
+@media (max-width:320px) {a{font-size: 0.6rem;}}

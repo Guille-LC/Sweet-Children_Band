@@ -35,6 +35,26 @@ header nav a:active {
   color: black;
 }
 
+@media (max-width: 768px) {
+  a {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 425px) {
+  a {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 375px) {
+  a {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 320px) {
+  a {
+    font-size: 0.6rem;
+  }
+}
 /*Flexbox para fechas en vivo*/
 .dateflex {
   display: flex;
@@ -264,14 +284,17 @@ li a {
 }
 
 /*Footer con links a redes sociales*/
+.derechos {
+  margin: 10px;
+  color: gray;
+}
+
 footer {
   margin: 10px;
   padding: 10px;
   background-color: black;
 }
 footer a {
-  text-decoration: none;
-  font-weight: bold;
   margin: 15px;
   width: 50px;
 }
@@ -279,11 +302,26 @@ footer a img {
   width: 50px;
 }
 
-.derechos {
-  margin: 10px;
-  color: gray;
+@media (max-width: 768px) {
+  footer a img {
+    width: 40px;
+  }
 }
-
+@media (max-width: 425px) {
+  footer a img {
+    width: 35px;
+  }
+}
+@media (max-width: 375px) {
+  footer a img {
+    width: 30px;
+  }
+}
+@media (max-width: 320px) {
+  footer a img {
+    width: 30px;
+  }
+}
 * {
   padding: 0%;
   margin: 0%;

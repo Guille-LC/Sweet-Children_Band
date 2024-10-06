@@ -1,12 +1,12 @@
 /*Footer con links a redes sociales*/
 
+.derechos{margin: 10px; color: gray;}
+
 footer {
 	margin: 10px;
 	padding: 10px;
 	background-color: black;
 	a {
-		text-decoration: none;
-		font-weight: bold;
 		margin: 15px;
 		width: 50px;
 		img{
@@ -15,7 +15,7 @@ footer {
 	}
 }
 
-.derechos{
-	margin: 10px;
-	color: gray;
-}
+@media (max-width:768px) {footer{a{img{width: 40px;}}}}
+@media (max-width:425px) {footer{a{img{width: 35px;}}}}
+@media (max-width:375px) {footer{a{img{width: 30px;}}}}
+@media (max-width:320px) {footer{a{img{width: 30px;}}}}
