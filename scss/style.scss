@@ -73,11 +73,11 @@ label {
 }
 
 @media (max-width: 1280px) {
-	.heading{
-		h1 {
+	h1 {
 			max-width: 100%;
 			font-size: 8rem;
 		}
+	.heading{
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -91,11 +91,11 @@ label {
 }
 
 @media (max-width: 425px) {
+	h1 {
+		max-width: 100%;
+		font-size: 6rem;
+	}
     .heading{
-		h1 {
-			max-width: 100%;
-			font-size: 6rem;
-		}
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -117,11 +117,11 @@ label {
 }
 
 @media (max-width: 375px) {
+	h1 {
+		max-width: 100%;
+		font-size: 5rem;
+	}
     .heading{
-		h1 {
-			max-width: 100%;
-			font-size: 5rem;
-		}
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -143,11 +143,11 @@ label {
 }
 
 @media (max-width: 320px) {
+	h1 {
+		max-width: 100%;
+		font-size: 4rem;
+	}
     .heading{
-		h1 {
-			max-width: 100%;
-			font-size: 4rem;
-		}
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;

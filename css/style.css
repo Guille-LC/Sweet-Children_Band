@@ -225,15 +225,15 @@ label {
 }
 
 @media (max-width: 1280px) {
+  h1 {
+    max-width: 100%;
+    font-size: 8rem;
+  }
   .heading {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-  }
-  .heading h1 {
-    max-width: 100%;
-    font-size: 8rem;
   }
   .heading .mainlogo {
     padding-top: 16px;
@@ -242,15 +242,15 @@ label {
   }
 }
 @media (max-width: 425px) {
+  h1 {
+    max-width: 100%;
+    font-size: 6rem;
+  }
   .heading {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-  }
-  .heading h1 {
-    max-width: 100%;
-    font-size: 6rem;
   }
   .heading .mainlogo {
     padding-top: 16px;
@@ -267,15 +267,15 @@ label {
   }
 }
 @media (max-width: 375px) {
+  h1 {
+    max-width: 100%;
+    font-size: 5rem;
+  }
   .heading {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 5px;
-  }
-  .heading h1 {
-    max-width: 100%;
-    font-size: 5rem;
   }
   .heading .mainlogo {
     padding-top: 16px;
@@ -292,15 +292,15 @@ label {
   }
 }
 @media (max-width: 320px) {
+  h1 {
+    max-width: 100%;
+    font-size: 4rem;
+  }
   .heading {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 0;
-  }
-  .heading h1 {
-    max-width: 100%;
-    font-size: 4rem;
   }
   .heading .mainlogo {
     padding-top: 16px;
