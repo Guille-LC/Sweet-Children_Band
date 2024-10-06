@@ -41,7 +41,8 @@ header nav a:active {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  gap: 60px;
+  gap: 70px;
+  padding: 60px;
 }
 
 .datebox {
@@ -49,7 +50,6 @@ header nav a:active {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  border: 2px solid greenyellow;
   background-color: rgb(0, 0, 0);
   color: white;
   width: 500px;
@@ -59,6 +59,21 @@ header nav a:active {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.9rem;
+}
+
+.datebox:hover {
+  transform: scale(98%);
+  transition: all 0.4s;
+  border: 2px solid greenyellow;
+}
+
+li a {
+  color: rgb(68, 0, 255);
+}
+
+.shop:hover {
+  color: white;
+  background-color: rgb(0, 0, 255);
 }
 
 @media (max-width: 1280px) {
@@ -74,7 +89,6 @@ header nav a:active {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    border: 2px solid greenyellow;
     background-color: rgb(0, 0, 0);
     width: 400px;
     height: 200px;
@@ -98,7 +112,6 @@ header nav a:active {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    border: 2px solid greenyellow;
     background-color: rgb(0, 0, 0);
     width: 350px;
     height: 150px;
@@ -123,7 +136,6 @@ header nav a:active {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    border: 2px solid greenyellow;
     background-color: rgb(0, 0, 0);
     width: 250px;
     height: 100px;
@@ -148,7 +160,6 @@ header nav a:active {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    border: 2px solid greenyellow;
     background-color: rgb(0, 0, 0);
     width: 210px;
     height: 90px;
