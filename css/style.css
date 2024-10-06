@@ -97,7 +97,7 @@ table {
   max-width: 100%;
   color: aliceblue;
   line-height: 1.5;
-  padding: 20px 150px 20px 150px;
+  padding: 20px 180px 20px 180px;
 }
 
 @media (max-width: 1280px) {
@@ -222,6 +222,11 @@ label {
   margin: 0 auto;
   padding: 50px;
   width: 1000px;
+}
+
+span {
+  text-decoration: solid;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 1280px) {
