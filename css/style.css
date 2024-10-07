@@ -283,6 +283,24 @@ li a {
   max-width: 100%;
 }
 
+@media (max-width: 425px) {
+  .newstitle {
+    font-size: 1.9rem;
+  }
+  .formsize {
+    max-width: 390px;
+    padding: 35px;
+  }
+}
+@media (max-width: 375px) {
+  .newstitle {
+    font-size: 1.7rem;
+  }
+  .formsize {
+    max-width: 300px;
+    padding: 25px;
+  }
+}
 /*Footer con links a redes sociales*/
 .derechos {
   margin: 10px;
@@ -404,15 +422,18 @@ span {
     gap: 20px;
   }
   .heading .mainlogo {
+    margin: 12px;
     padding-top: 16px;
     width: 100px;
     max-width: 100%;
   }
 }
 @media (max-width: 425px) {
-  h1 {
+  .indextitulo {
     max-width: 100%;
     font-size: 6rem;
+    text-align: left;
+    line-height: 80px;
   }
   .heading {
     display: flex;
@@ -421,6 +442,7 @@ span {
     gap: 10px;
   }
   .heading .mainlogo {
+    margin: 15px;
     padding-top: 16px;
     width: 90px;
     max-width: 100%;
@@ -435,9 +457,10 @@ span {
   }
 }
 @media (max-width: 375px) {
-  h1 {
+  .indextitulo {
     max-width: 100%;
     font-size: 5rem;
+    line-height: 70px;
   }
   .heading {
     display: flex;
@@ -463,6 +486,7 @@ span {
   h1 {
     max-width: 100%;
     font-size: 4rem;
+    line-height: 56px;
   }
   .heading {
     display: flex;

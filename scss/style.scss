@@ -85,17 +85,20 @@ span{text-decoration: solid; font-size: 1.3rem;}
 		align-items: center;
 		gap: 20px;
 		.mainlogo{
-		padding-top: 16px;
-		width: 100px;
-		max-width: 100%;
+		    margin: 12px;
+		    padding-top: 16px;
+		    width: 100px;
+		    max-width: 100%;
 		}
 	}
 }
 
 @media (max-width: 425px) {
-	h1 {
+	.indextitulo {
 		max-width: 100%;
 		font-size: 6rem;
+		text-align: left;
+		line-height: 80px;
 	}
     .heading{
 		display: flex;
@@ -103,6 +106,7 @@ span{text-decoration: solid; font-size: 1.3rem;}
 		align-items: center;
 		gap: 10px;
 		.mainlogo{
+		margin: 15px;
 		padding-top: 16px;
 		width: 90px;
 		max-width: 100%;
@@ -119,9 +123,10 @@ span{text-decoration: solid; font-size: 1.3rem;}
 }
 
 @media (max-width: 375px) {
-	h1 {
+	.indextitulo {
 		max-width: 100%;
 		font-size: 5rem;
+		line-height: 70px;
 	}
     .heading{
 		display: flex;
@@ -148,6 +153,7 @@ span{text-decoration: solid; font-size: 1.3rem;}
 	h1 {
 		max-width: 100%;
 		font-size: 4rem;
+		line-height: 56px;
 	}
     .heading{
 		display: flex;
