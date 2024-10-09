@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 }
 
 nav {
@@ -24,28 +24,34 @@ header nav a {
 header nav a:hover {
   background-color: greenyellow;
   color: black;
+  padding-left: 1.8px;
+  padding-right: 1.8px;
 }
 header nav a:active {
   background-color: aliceblue;
   color: black;
 }
 
-.dontclick {
-  background-color: greenyellow;
-  color: black;
-}
-
 @media (max-width: 768px) {
+  .flexnav {
+    gap: 30px;
+  }
   a {
     font-size: 0.9rem;
   }
 }
 @media (max-width: 425px) {
+  .flexnav {
+    gap: 20px;
+  }
   a {
     font-size: 0.8rem;
   }
 }
 @media (max-width: 375px) {
+  .flexnav {
+    gap: 15px;
+  }
   a {
     font-size: 0.7rem;
   }
@@ -70,6 +76,8 @@ header nav a:active {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  background-image: url(../imagenes/wallpaperflare.com_wallpaper.jpg);
+  background-position: center;
   background-color: rgb(0, 0, 0);
   color: white;
   width: 500px;

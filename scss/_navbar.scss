@@ -5,7 +5,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	gap: 30px;
+	gap: 50px;
 }
 nav {
 	padding-top: 8px;
@@ -23,6 +23,8 @@ header {
 			&:hover {
 				background-color: greenyellow;
 				color: black;
+				padding-left: 1.8px; 
+				padding-right: 1.8px;
 			}
 			&:active {
 				background-color: aliceblue;
@@ -31,12 +33,25 @@ header {
 		}
 	}
 }
-.dontclick {
-	background-color: greenyellow;
-	color: black;
-}
 
-@media (max-width:768px) {a{font-size: 0.9rem;}}
-@media (max-width:425px) {a{font-size: 0.8rem;}}
-@media (max-width:375px) {a{font-size: 0.7rem;}}
-@media (max-width:320px) {a{font-size: 0.6rem;}}
+@media (max-width:768px) {
+	.flexnav{
+		gap: 30px;
+	}
+	a{font-size: 0.9rem;}
+}
+@media (max-width:425px) {
+	.flexnav{
+        gap: 20px;
+	}
+	a{font-size: 0.8rem;}
+}
+@media (max-width:375px) {
+	.flexnav{
+        gap: 15px;
+	}
+	a{font-size: 0.7rem;}
+}
+@media (max-width:320px) {
+	a{font-size: 0.6rem;}
+}
