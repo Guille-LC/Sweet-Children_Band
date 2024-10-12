@@ -402,7 +402,7 @@ span {
   border-radius: 4px;
   height: 60px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   background-image: url(../imagenes/wallpaperflare.com_wallpaper.jpg);
   background-position: right;
 }
@@ -435,6 +435,22 @@ span {
     width: 100px;
     max-width: 100%;
   }
+  .maindiv {
+    width: 800px;
+  }
+  .maindiv .maindivbox {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 768px) {
+  .maindiv {
+    width: 600px;
+    padding: 30px;
+  }
+  .maindiv .maindivbox {
+    font-size: 1.6rem;
+    height: 50px;
+  }
 }
 @media (max-width: 425px) {
   .indextitulo {
@@ -463,6 +479,13 @@ span {
     padding: 8px;
     width: 300px;
   }
+  .maindiv {
+    width: 400px;
+    padding: 25px;
+  }
+  .maindiv .maindivbox {
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 375px) {
   .indextitulo {
@@ -489,6 +512,13 @@ span {
     padding: 5px;
     width: 300px;
   }
+  .maindiv {
+    width: 350px;
+    padding: 20px;
+  }
+  .maindiv .maindivbox {
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 320px) {
   h1 {
@@ -514,6 +544,13 @@ span {
     margin: 0 auto;
     padding: 5px;
     width: 300px;
+  }
+  .maindiv {
+    width: 290px;
+    padding: 15px;
+  }
+  .maindiv .maindivbox {
+    font-size: 1.6rem;
   }
 }
 
