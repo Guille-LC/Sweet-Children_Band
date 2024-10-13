@@ -393,7 +393,7 @@ span {
   margin: 0 auto;
   padding: 40px;
   margin-bottom: 20px;
-  width: 1200px;
+  width: 1100px;
 }
 .maindiv .maindivbox {
   justify-content: center;
@@ -436,7 +436,7 @@ span {
     max-width: 100%;
   }
   .maindiv {
-    width: 800px;
+    width: 750px;
   }
   .maindiv .maindivbox {
     font-size: 1.7rem;
