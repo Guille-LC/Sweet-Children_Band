@@ -9,6 +9,7 @@
     <meta name="description" content="¡Ponete en contacto con nosotros!">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../imagenes/warning.png" type="image/x-icon">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--Sweet alert-->
 </head>
 <body>
     <header>
@@ -22,19 +23,19 @@
     </header>
     <main>
         <h2 class="newstitle">¡Subscribite al newsletter para que no te pierdas de ninguna novedad!</h2>
-        <form class="formsize">
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="JasonAndrewRelva@insomniac.com" required>
-            </div>
-                <div class="mb-3 form-check">
-            </div>
-            <div>
-                <label for="mensaje">¡Dejanos tu mensaje!</label>
-                <br>
-                <textarea name="mensaje" id="" placeholder="Escrbir un mensaje..." cols="40" rows="8"></textarea>
-            </div>
-                <button type="submit" class="btn btn-success">Enviar</button>
+            <form id="formulario" class="formsize">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"      placeholder="JasonAndrewRelva@insomniac.com" required>
+                </div>
+                    <div class="mb-3 form-check">
+                </div>
+                <div>
+                    <label for="mensaje">¡Dejanos tu mensaje!</label>
+                    <br>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escrbir un mensaje..." cols="40" rows="8"></textarea>
+                </div>
+                        <button id="submitButton" type="submit" class="btn btn-success">Enviar</button>
             </form>
     </main>
     <img class="grenadepin" src="../imagenes/grenadepin.png" alt="american idiot">
@@ -48,5 +49,6 @@
         <p class="derechos">@2024 Sweet Children | Todos los derechos e izquierdos reservados</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/JavaScript/contacto.js"></script>
 </body>
 </html>
