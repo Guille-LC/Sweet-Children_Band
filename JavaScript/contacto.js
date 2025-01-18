@@ -1,15 +1,12 @@
 const botonSubmit = document.getElementById("submitButton");
 
-//Se guarda el email en una variable y se escucha el evento input cuando el usuario escribe en el campo
 let userEmail = document.getElementById("exampleInputEmail1");
-userEmail.onchange = () => {console.log(userEmail.value)};
+userEmail.onchange = () => {
+    localStorage.setItem("correo", userEmail.value);
+    let correoGuardado = localStorage.getItem("correo");
+    console.log(correoGuardado);
+};
 
-localStorage.setItem("correo", userEmail.value); //No guarda el valor. Hay un error...
-let correoGuardado = localStorage.getItem("correo");
-console.log(correoGuardado);
-
-
-//Pero es mejor con onchange para que no se actualize a cada rato porque es innecesario
 let mensaje = document.getElementById("mensaje");
 mensaje.addEventListener("change", () => {
     console.log(mensaje.value)
