@@ -1,5 +1,3 @@
-const botonSubmit = document.getElementById("submitButton");
-
 let userEmail = document.getElementById("exampleInputEmail1");
 userEmail.onchange = () => {
     localStorage.setItem("correo", userEmail.value);
@@ -12,14 +10,44 @@ mensaje.addEventListener("change", () => {
     console.log(mensaje.value)
 });
 
-let formulario = document.getElementById("formulario");
-formulario.addEventListener("submit", envioDeFormulario);
+const botonSubmit = document.getElementById("submitButton");
 
-//Hasta que el campo de email no se llene, esta funcion no se activa. Debe ser por el required del HTML
-function envioDeFormulario(x) {
-    x.preventDefault();
-    alert("Email recibido");
-};
+document.getElementById('formulario').addEventListener('submit', function(event) {
+    event.preventDefault();
+    botonSubmit.value = 'Sending...';
+    const serviceID = 'default_service';
+    const templateID = 'template_plfzma9';
+    emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+        botonSubmit.value = 'Send Email';
+            Swal.fire({
+                title: "¡Formulario enviado!",
+                icon: "success",
+                draggable: true
+            })
+    });
+    }, (err) => {
+        botonSubmit.value = 'Send Email';
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Algo salio mal. Intentalo de nuevo."
+        });;
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Miembros {
     constructor(nombre,apellido,puesto) {
