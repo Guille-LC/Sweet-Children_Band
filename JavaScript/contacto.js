@@ -61,15 +61,3 @@ document.getElementById('formulario').addEventListener('submit', function(event)
             text: "Algo salio mal. Intentalo de nuevo."
         });;
     });
-
-for (let letra of "Sweet") {
-    setTimeout(() => {
-        console.log(letra);
-    }, 3000);
-};
-
-for (let letra of "Children") {
-    setTimeout(() => {
-        console.log(letra)
-    }, 5000)
-};
